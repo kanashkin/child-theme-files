@@ -1,0 +1,41 @@
+/* KWINS REQUIRED STYLES */
+.elementor-field-type-recaptcha_v3 .grecaptcha-badge {
+    z-index: 1;
+    visibility: hidden !important;
+}
+    
+body > .elementor {overflow-x: clip;
+    }
+    
+html {scroll-behavior: smooth;
+    }
+    
+.elementor-widget-image a {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+}
+    
+/* DELETING FOCUS-VISIBLE BORDER */
+    
+a:active,
+a:focus,
+input,
+textarea,
+input:active,
+textarea:active,
+:focus {
+    outline: none;
+}
+    
+textarea {
+    resize: none;
+}
+    
+textarea {
+    resize: vertical;
+}
+    
+textarea {
+    resize: horizontal;
+}
